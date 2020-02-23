@@ -39,8 +39,7 @@ header{
 nav{
   display: inline-block;
   margin-top: 35px;
-  margin-left:406px;
-
+  margin-left: 406px;
 }
 
 li, h1{
@@ -65,4 +64,84 @@ li:hover{
 }
 li.dot:hover{
   color:#494e62;
+}
+
+/*_________slider________*/
+
+.slider{
+  width: 100%;
+  height: 615px;
+  background-color: #ea676b;
+}
+.slider div{
+  display: inline-block;
+}
+
+.arrow-left{
+  float:left;
+  margin: 281px 0 0 42px;
+}
+
+.phone{
+  position: relative;
+  width: 215px;
+  height: 458px;
+  border-radius: 27px;
+  background-color: #f2f2f2;
+  vertical-align: 50px;
+  margin:54px 0 0 55px;
+}
+
+.phone .screen{
+  position: absolute;
+  width: 190px;
+  height: 335px;
+  top:60px;
+  left:10px;
+  border: 3px solid #c6c6c6;
+  border-radius: 4px;
+  background-image: url("assets/im-vert.png");
+  background-position: -14px -135px;
+}
+
+.phone-stuff{
+  position: absolute;
+  left: 84px;
+  top: 14px;
+}
+
+.phone-stuff .dot{
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  left:20px;
+  top:4px;
+  border-radius: 2px;
+  background-color: #eb5055;
+}
+.shadow-vert{
+  background-image: url("assets/Shadow.svg");
+  width: 215px;
+  height: 458px;
+}
+
+.phone.horizontal{
+  vertical-align: 52px;
+  margin:0 0 0 214px;
+  transform: rotate(90deg);
+}
+.phone.horizontal .screen{
+  top:130px;
+  left:-60px;
+  background-image: url("assets/im-hor.png");
+  transform: rotate(270deg);
+  width: 335px;
+  height: 190px;
+  background-position: -127px -120px;
+}
+
+.arrow-right{
+  float: right;
+  margin: 277px 40px 0 0;
+  transform: rotate(180deg);
 }

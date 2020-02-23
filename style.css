@@ -90,6 +90,7 @@ li.dot:hover{
   background-color: #f2f2f2;
   vertical-align: 50px;
   margin:54px 0 0 55px;
+  z-index: 800;
 }
 
 .phone .screen{
@@ -102,12 +103,14 @@ li.dot:hover{
   border-radius: 4px;
   background-image: url("assets/im-vert.png");
   background-position: -14px -135px;
+  z-index: 15;
 }
 
 .phone-stuff{
   position: absolute;
   left: 84px;
   top: 14px;
+  z-index: 3;
 }
 
 .phone-stuff .dot{
@@ -119,10 +122,26 @@ li.dot:hover{
   border-radius: 2px;
   background-color: #eb5055;
 }
+
 .shadow-vert{
-  background-image: url("assets/Shadow.svg");
-  width: 215px;
-  height: 458px;
+  position: absolute;
+  background-image: url("assets/shadow-vert.svg");
+  transform:rotate(180deg);
+  width: 240px;
+  height: 470px;
+  margin: 12px 0 0 0;
+  z-index: 1;
+}
+
+.shadow-hor{
+  position: absolute;
+  background-image: url("assets/shadow-hor.svg");
+  transform: rotate(180deg);
+  width: 470px;
+  height: 230px;
+  left:438px;
+  top: 278px;
+  z-index: 1;
 }
 
 .phone.horizontal{
@@ -130,6 +149,7 @@ li.dot:hover{
   margin:0 0 0 214px;
   transform: rotate(90deg);
 }
+
 .phone.horizontal .screen{
   top:130px;
   left:-60px;

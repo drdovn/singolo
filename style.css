@@ -70,8 +70,9 @@ li.dot:hover{
 
 .slider{
   width: 100%;
-  height: 615px;
-  background-color: #ea676b;
+  height: 595px;
+  background-color: #f06c64;
+  border-bottom:5px solid #ea676b;;
 }
 .slider div{
   display: inline-block;
@@ -129,7 +130,8 @@ li.dot:hover{
   transform:rotate(180deg);
   width: 240px;
   height: 470px;
-  margin: 12px 0 0 0;
+  left:115px;
+  top:170px;
   z-index: 1;
 }
 
@@ -164,4 +166,80 @@ li.dot:hover{
   float: right;
   margin: 277px 40px 0 0;
   transform: rotate(180deg);
+}
+
+/*_________our services__________*/
+
+.our-services{
+  display:flex;
+  flex-wrap: wrap;
+  width: 1020px;
+  height: 495px;
+  background-color: #f2f2f2;
+}
+
+.intro{
+  margin:40px 40px 0 40px;
+}
+
+.intro h3{
+  font-size: 30px;
+  line-height: 18px;
+  color: #666d89;
+  font-family: "Lato";
+  font-weight: 900;
+  text-align: left;
+  margin-bottom: 25px;
+}
+.fl{
+  width: 32%;
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 8px;
+  margin-bottom: 10px; */
+}
+.descrip{
+  display: inline-block;
+}
+  .intro p{
+  display: inline-block;
+  margin:0 40px 0 0;
+  width: 940px;
+  height: 57px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #767e9e;
+  font-family: "Lato";
+  font-weight: 300;
+  text-align: left;
+}
+
+.services{
+  width:100%;
+  margin:0 40px 15px 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.services p{
+  margin:8px 0 0px 18px;
+  font-size: 12px;
+  line-height: 22px;
+  color: #767e9e;
+  font-family: "Lato";
+  font-weight: 400;
+  text-align: left;
+}
+
+p.title{
+  display: inline-block;
+  margin:0 0 0 18px;
+  font-size: 18px;
+  line-height: 18px;
+  color: #666d89;
+  font-family: "Lato";
+  font-weight: 900;
+  text-align: left;
 }

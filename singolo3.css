@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,200,300,400,700,900&display=swap&subset=latin-ext');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.get-a-quote{
+  width: 1020px;
+  height: 654px;
+  background-color: #f06c64;
+  border-bottom: solid 6px #ea676b;
+  padding: 60px 40px;
+}
+
+.get-a-quote-intro h2{
+  font-size: 30px;
+  line-height: 18px;
+  color: #f0d8d9;
+  font-family: "Lato";
+  font-weight: 900;
+  margin: 8px 0;
+}
+.get-a-quote-intro p{
+  width: 940px;
+  height: 57px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #f0d8d9;
+  font-family: "Lato";
+  font-weight: 300;
+  text-align: left;
+  margin: 27px 0px;
+}
+
+
+
+
+footer{
+  width: 1020px;
+  height: 76px;
+  background-color: #2d303a;
+}

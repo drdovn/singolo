@@ -10,7 +10,8 @@
   height: 654px;
   background-color: #f06c64;
   border-bottom: solid 6px #ea676b;
-  padding: 60px 40px;
+  padding: 68px 40px;
+  text-align: justify;
 }
 
 .get-a-quote-intro h2{
@@ -19,17 +20,13 @@
   color: #f0d8d9;
   font-family: "Lato";
   font-weight: 900;
-  margin: 8px 0;
 }
 .get-a-quote-intro p{
-  width: 940px;
-  height: 57px;
   font-size: 18px;
   line-height: 30px;
   color: #f0d8d9;
   font-family: "Lato";
   font-weight: 300;
-  text-align: left;
   margin: 27px 0px;
 }
 
@@ -41,16 +38,42 @@ form{
   width: 66%;
 }
 .comm-form{
+  margin-top: 1px;
   border: none;
 }
 .comm-form input,
 .comm-form textarea{
   width: 100%;
   display: block;
-  margin: 20px 0;
+  margin: 16px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #d6564f;
+  padding: 7px 15px;
 }
 
+input[placeholder],
+textarea[placeholder] {
+  font-size: 12px;
+  line-height: 22px;
+  font-family: "Lato";
+  font-weight: 400;
+}
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {color:#f48c8f;}
 
+input::-moz-placeholder,
+textarea::-moz-placeholder {color:#f48c8f;}
+
+.comm-form input{
+  height: 38px;
+}
+.comm-form textarea{
+  height: 202px;
+}
+button{
+/*  visibility: hidden;*/
+}
 
 
 footer{

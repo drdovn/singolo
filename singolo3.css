@@ -42,7 +42,8 @@ form{
   border: none;
 }
 .comm-form input,
-.comm-form textarea{
+.comm-form textarea,
+button{
   width: 100%;
   display: block;
   margin: 16px 0;
@@ -53,12 +54,19 @@ form{
 }
 
 input[placeholder],
-textarea[placeholder] {
+textarea[placeholder]{
   font-size: 12px;
   line-height: 22px;
   font-family: "Lato";
   font-weight: 400;
 }
+
+button{
+  margin: 0;
+  font: bold 14px "Lato";
+  color:/*#f7ddda*/#f0d8d9;
+}
+
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {color:#f48c8f;}
 

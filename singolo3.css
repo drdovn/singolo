@@ -37,6 +37,7 @@ form,
 form{
   width: 66%;
 }
+
 .comm-form{
   margin-top: 1px;
   border: none;
@@ -83,7 +84,60 @@ button{
 /*  visibility: hidden;*/
 }
 
+.contact-info{
+  width: 33%;
+  vertical-align: top;
+  padding: 16px;
+  color: #f0d8d9;
+  font-family: "Lato";
+  text-align: justify;
+}
 
+.contact-info h3{
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 900;
+}
+
+.contact-info p{
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 400;
+  padding: 10px 0;
+  margin-top:1px;
+}
+
+.contact-icon,
+.contact-icon-def{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.contact-icon{
+  margin-top: 12px;
+}
+
+.contact-icon img{
+  display: block;
+  padding: 7px 0;
+}
+
+.contact-icon .location{
+  padding: 3px;
+}
+
+.contact-icon-def{
+  margin-left: 6px;
+}
+
+.contact-icon-def p{
+  font-size: 12px;
+  line-height: 21px;
+  color: #f0d8d9;
+  font-family: "Lato";
+  font-weight: 400;
+  text-align: left;
+}
 footer{
   width: 1020px;
   height: 76px;

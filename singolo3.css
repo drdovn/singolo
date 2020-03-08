@@ -138,6 +138,18 @@ button{
   font-weight: 400;
   text-align: left;
 }
+.copyright{
+  height: 100%;
+  display: inline-block;
+}
+.copyright p{
+  margin: 30px 42px;
+
+  font-size: 12px;
+  color: #666d89;
+  font-family: "Lato";
+  font-weight: 400;
+}
 footer{
   width: 1020px;
   height: 76px;

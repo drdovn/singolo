@@ -138,6 +138,12 @@ button{
   font-weight: 400;
   text-align: left;
 }
+
+.contact-icon-def p a{
+  text-decoration: none;
+  color: inherit;
+}
+
 .copyright,
 .social-media{
   display: inline-block;
@@ -163,6 +169,16 @@ button{
   height: 30px;
   margin:0 2px 0 4px;
 
+}
+.social-media img{
+  width: 14px;
+  height: 14px;
+  margin: 8px;
+  color: #666d89;
+}
+
+input:invalid {
+  background: #2d303a;
 }
 
 footer{

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+<header>
+  <div class="logo">
+    <p>SINGOLO<span class="symbol">*</span></p>
+  </div>
+  <nav>
+    <ul>
+      <li>HOME</li>
+      <li class="dot">·</li>
+      <li>SERVICES</li>
+      <li class="dot">·</li>
+      <h1><li>PORTFOLIO</li></h1>
+      <li class="dot">·</li>
+      <li>ABOUT</li>
+      <li class="dot">·</li>
+      <li>CONTACT</li>
+    </ul>
+   </nav>
+</header>
+<main>
+<section class="slider">
+    <div class="arrow-left">
+      <img src="assets/chev.svg" alt="arrow to the left">
+    </div>
+
+    <div class="phone-container">
+      <div class="phone vertical">
+        <div class="screen">  </div>
+        <div class="phone-stuff">
+          <img src="assets/ph-stuff.svg">
+          <div class="dot"></div>
+        </div>
+      </div>
+    <div class="shadow-vert"></div>
+    </div>
+
+    <div class="phone-container">
+      <div class="phone horizontal">
+        <div class="screen">  </div>
+        <div class="phone-stuff">
+          <img src="assets/ph-stuff.svg">
+          <div class="dot"></div>
+        </div>
+      </div>
+      <div class="shadow-hor"></div>
+    </div>
+
+    <div class="arrow-right">
+      <img src="assets/chev.svg" alt="arrow to the right">
+    </div>
+  </section>
+
+
+  <section class="our-services">
+    <div class="intro">
+      <h3>Our Services</h3>
+      <p>Fuske snkd dkslkd ddkmj osekf sokf sokfolk
+        sfjiskf sjfeks sfs qw dqwdw efwefw ef wf wefew qwdq wdw efwefw
+        wef wef ewfew f wf  ew efwe f ewfwwef wef wef fewfweff wef we
+     </p>
+    </div>
+    <div class="services">
+      <div class="fl">
+        <div class="icon"><img src="assets/pan.svg" alt="star"></div>
+        <div class="descrip"><p class="title">Custom Design</p><p>jjkdsnkd dkslkd ddkmj osekf sokf sokfolk
+          sfjiskf sjfeks sfs qwdq wdwef w efew we f ewfwwef we</p>  </div>
+      </div>
+
+      <div class="fl">
+        <div class="icon"><img src="assets/lamp.svg" alt="star"></div>
+        <div class="descrip"><p class="title">Inovative Ideas</p><p>jjkdsnkd dkslkd ddkmj osekf sokf sokfolk
+          sfjiskf sjfeks sfs qwdqwdwefwefw ef wf wefew qwdqf we</p> </div>
+      </div>
+
+
+      <div class="fl">
+        <div class="icon"><img src="assets/heart.svg" alt="star"></div>
+        <div class="descrip"><p class="title">Love Is The Answer</p><p>jjkdsnkd dkslkd ddkmj osekf sokf sokfolk
+          sfjiskf sjfeks sfs we</p> </div>
+      </div>
+
+
+      <div class="fl">
+        <div class="icon"><img src="assets/phone1.svg" alt="star"></div>
+        <div class="descrip"><p class="title">Responsive Layout</p><p>jjkdsnkd dkslkd ddkmj osekf sokf sokfolk
+          sfjiskf sjfeks sfs qwdqwdwefwefw ef wf wefew qwdqwdwefwefw
+          wefwefewfew f wf  ew efwe f ewfwwef we</p> </div>
+      </div>
+
+
+      <div class="fl">
+        <div class="icon-bubbles"><img src="assets/bubble.svg" alt="star"></div>
+        <div class="descrip"><p class="title">24/7 Support</p><p>jjkdsnkd dkslkd ddkmj osekf sokf sokfolk
+          sfjiskf sjfeks sfs qwdqwdwefwefw ef wf wefew qwdqwdwefwefw
+          wefwefewfew f wf  ew efwe f ewfwwef we</p> </div>
+      </div>
+
+      <div class="fl">
+        <div class="icon"><img src="assets/star.svg" alt="star"></div>
+        <div class="descrip"><p class="title">Feel Like A Star</p><p>jjkdsnkd dkslkd ddkmj osekf sokf sokfolk
+          sfjiskf sjfeks sfs qwdqwdwefwefw ef wf wefew qwdqwdwefwefw
+          wefwefewfew f wf  ew efwe f ewfwwef we</p> </div>
+      </div>
+
+
+    </div>
+
+  </section>
+
+
+
+<section class="portfolio">
+    <div class="portfolio-intro-text">
+      <h1>Portfolio</h1>
+      <p>Duis mollis bla bla bla bla bla bla bla bla bla bla bla bla bla </p>
+    </div>
+    <div class="work-list-container">
+      <ul>
+        <li>All</li>
+        <li>Web Design</li>
+        <li>Graphic Design</li>
+        <li>Artwork</li>
+      </ul>
+    </div>
+    <div class="all-work-container">
+      <div class="pic-11"></div>
+      <div class="pic-12"></div>
+      <div class="pic-13"></div>
+      <div class="pic-14"></div>
+      <div class="pic-21"></div>
+      <div class="pic-22"></div>
+      <div class="pic-23"></div>
+      <div class="pic-24"></div>
+      <div class="pic-31"></div>
+      <div class="pic-32"></div>
+      <div class="pic-33"></div>
+      <div class="pic-34"></div>
+    </div>
+  </section>
+
+  <section class="about-us">
+
+    <div class="about-us-intro-text">
+      <h1>About Us</h1>
+      <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttior kokok kokokok kokokok kokokok kokokok kokokok</p>
+    </div>
+
+    <div class="people-short-cv-container">
+
+      <div class="person">
+        <img src="assets/person1.png" alt="">
+        <h3 class="name">Adam Jensen sososo soso so soosso sosos sosososoossosososos so</h3>
+        <p class="intro"> Quisque luctus, quam bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla</p>
+        <div class="source">
+          <div><img src="assets/facebook.svg" alt=""></div>
+          <div><img src="assets/google.svg" alt=""></div>
+          <div><img src="assets/twitter.svg" alt=""></div>
+          <div><img src="assets/linkedin.svg" alt=""></div>
+        </div>
+      </div>
+
+      <div class="person">
+        <img src="assets/person2.png" alt="">
+        <h3 class="name">Desmond Miles</h3>
+        <p class="intro">Curabitur vestibulum quam bla bla bla bla bla bla bla bla bla</p>
+        <div class="source">
+        <div><img src="assets/facebook.svg" alt=""></div>
+        <div><img src="assets/google.svg" alt=""></div>
+        <div><img src="assets/twitter.svg" alt=""></div>
+        <div><img src="assets/linkedin.svg" alt=""></div>
+        </div>
+      </div>
+
+      <div class="person">
+        <img src="assets/person3.png" alt="">
+        <h3 class="name">Scolara Visari</h3>
+        <p class="intro">Nulla sed nunc et tortor a bla bla bla bla bla bla bla</p>
+        <div class="source">
+          <div><img src="assets/facebook.svg" alt=""></div>
+          <div><img src="assets/google.svg" alt=""></div>
+          <div><img src="assets/twitter.svg" alt=""></div>
+          <div><img src="assets/linkedin.svg" alt=""></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="get-a-quote">
+
+    <div class="get-a-quote-intro">
+      <h2>Get a Quote</h2>
+      <p>Fusce dapibus, tellus ac commoo, tortor ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko
+        ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko </p>
+    </div>
+
+    <div class="get-a-quote-form">
+
+      <form action="#" method="post">
+
+        <fieldset class="comm-form">
+          <input type="text" name="name" placeholder="Name (Required)" required>
+          <input type="email" name="email" placeholder="Email (Required)" required>
+          <input type="text" name="subject" placeholder="Subject">
+          <textarea name="project-description" rows="15" cols="20" placeholder="Describe your project in detail..."></textarea>
+        </fieldset>
+        <button type="submit" name="button">Send</button>
+      </form>
+
+      <div class="contact-info">
+        <h3>Contact Information</h3>
+        <p>Quisque henderit purus dapibus, ornare nibh vitae, viver-ra nibh ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko
+          ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko ko  </p>
+        <div class="def-contact">
+          <div class="contact-icon">
+            <img  class="location" src="assets/location.svg" alt="">
+            <img src="assets/phone.svg" alt="">
+            <img src="assets/mail.svg" alt="">
+          </div>
+          <div class="contact-icon-def">
+            <p>
+              <a >Elm St. 14/05 Lost City</a> <br>
+              <a href="tel:03528 331 86 35">03528 331 86 35</a> <br>
+              <a href="mailto:info@singolo.com"> info@singolo.com</a> <br>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+  <footer>
+    <div class="copyright">
+     <p>© Copyright 2013</p>
+    </div>
+    <div class="social-media">
+      <div><img src="assets/facebook.svg" alt=""></div>
+      <div><img src="assets/google.svg" alt=""></div>
+      <div><img src="assets/twitter.svg" alt=""></div>
+      <div><img src="assets/linkedin.svg" alt=""></div>
+    </div>
+  </footer>
+</body>
+</html>

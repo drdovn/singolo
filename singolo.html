@@ -13,21 +13,21 @@
     <p>SINGOLO<span class="symbol">*</span></p>
   </div>
   <nav>
-    <ul>
-      <li>HOME</li>
+    <ul id = "menu">
+      <li class = "active"><a href="#anchor-home">HOME</a></li>
       <li class="dot">·</li>
-      <li>SERVICES</li>
+      <li><a href="#anchor-services">SERVICES</a></li>
       <li class="dot">·</li>
-      <h1><li>PORTFOLIO</li></h1>
+      <h1><li><a href="#anchor-portfolio">PORTFOLIO</a></li></h1>
       <li class="dot">·</li>
-      <li>ABOUT</li>
+      <li><a href="#anchor-about">ABOUT</a></li>
       <li class="dot">·</li>
-      <li>CONTACT</li>
+      <li><a href="#anchor-contact">CONTACT</a></li>
     </ul>
    </nav>
 </header>
 <main>
-<section class="slider">
+<section class="slider" id="anchor-home">
     <div class="arrow-left">
       <img src="assets/chev.svg" alt="arrow to the left">
     </div>
@@ -60,7 +60,7 @@
   </section>
 
 
-  <section class="our-services">
+  <section class="our-services" id = "anchor-services">
     <div class="intro">
       <h3>Our Services</h3>
       <p>Fuske snkd dkslkd ddkmj osekf sokf sokfolk
@@ -118,7 +118,7 @@
 
 
 
-<section class="portfolio">
+<section class="portfolio"  id = "anchor-portfolio">
     <div class="portfolio-intro-text">
       <h1>Portfolio</h1>
       <p>Duis mollis bla bla bla bla bla bla bla bla bla bla bla bla bla </p>
@@ -147,7 +147,7 @@
     </div>
   </section>
 
-  <section class="about-us">
+  <section class="about-us"  id = "anchor-about">
 
     <div class="about-us-intro-text">
       <h1>About Us</h1>
@@ -193,7 +193,9 @@
       </div>
     </div>
   </section>
-  <section class="get-a-quote">
+
+
+  <section class="get-a-quote"  id = "anchor-contact">
 
     <div class="get-a-quote-intro">
       <h2>Get a Quote</h2>
@@ -212,7 +214,17 @@
           <textarea name="project-description" rows="15" cols="20" placeholder="Describe your project in detail..."></textarea>
         </fieldset>
         <button type="submit" name="button">Send</button>
+
+
       </form>
+      <div id="message-block" class="hidden">
+        <div id="massage" class="hidden">
+          <p>Text<span id="result"></span></p>
+          <br>
+          <button id="close-btn">OK</button>
+        </div>
+      </div>
+
 
       <div class="contact-info">
         <h3>Contact Information</h3>
@@ -248,5 +260,6 @@
       <div><img src="assets/linkedin.svg" alt=""></div>
     </div>
   </footer>
+  <script src="script.js" charset="utf-8"></script>
 </body>
 </html>

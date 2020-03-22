@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="singolo.css">
+  <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
 <body>
@@ -205,22 +205,23 @@
 
     <div class="get-a-quote-form">
 
-      <form action="#" method="post">
+      <form  method = "get">
 
         <fieldset class="comm-form">
-          <input type="text" name="name" placeholder="Name (Required)" required>
-          <input type="email" name="email" placeholder="Email (Required)" required>
-          <input type="text" name="subject" placeholder="Subject">
-          <textarea name="project-description" rows="15" cols="20" placeholder="Describe your project in detail..."></textarea>
+          <input type="text" name="name" id = "name" placeholder="Name (Required)" required>
+          <input type="email" name="email" id="email" placeholder="Email (Required)" required>
+          <input type="text" name="subject" id = "subject" placeholder="Subject">
+          <textarea name="project-description" id = "describe" rows="15" cols="20" placeholder="Describe your project in detail..."></textarea>
         </fieldset>
-        <button type="submit" name="button">Send</button>
+        <button type="submit" name="button" id = "btn" >Send</button>
 
 
       </form>
       <div id="message-block" class="hidden">
-        <div id="massage" class="hidden">
-          <p>Text<span id="result"></span></p>
-          <br>
+        <div id="message" class="hidden">
+          <p id="result1"></p><br>
+          <p id="result2"></p><br>
+          <p id="result3"></p><br>
           <button id="close-btn">OK</button>
         </div>
       </div>

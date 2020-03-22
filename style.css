@@ -357,6 +357,7 @@ body{
 .pic-11{
   background-image: url("assets/Project11.png");
   background-position: -8px -11px;}
+
 .pic-12{
   background-image: url("assets/Project12.png");
   background-position: -82px -43px;
@@ -587,14 +588,14 @@ textarea::-moz-placeholder {color:#f48c8f;}
   top: 0;
   left: 0;
   background: #0008;
-  opacity: 0.5;
+
 }
 
 #message-block.hidden{
   display: none;
 }
 
-#massage{
+#message{
   position: absolute;
   top: 50%;
   left: 50%;
